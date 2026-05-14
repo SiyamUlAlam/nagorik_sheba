@@ -1,0 +1,35 @@
+name: nagorik_sheba
+description: "A civic service mobile application for Bangladesh"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_map: ^8.3.0
+  latlong2: ^0.9.1
+  supabase_flutter: ^2.12.4
+  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+# Launcher icon configuration must be top-level (not under flutter:)
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/Nagorik_Sheba_Icon.png"
+  adaptive_icon_background: "#0F766E"
+  adaptive_icon_foreground: "assets/icons/Nagorik_Sheba_Icon.png"
