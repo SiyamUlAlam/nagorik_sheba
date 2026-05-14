@@ -24,7 +24,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/icons/
+    - assets/icons/Nagorik_Sheba_Icon.png
 
 # Launcher icon configuration must be top-level (not under flutter:)
 flutter_launcher_icons:
